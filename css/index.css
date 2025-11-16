@@ -1,0 +1,78 @@
+.text-box h3:first-of-type {
+  color: pink;
+}
+
+#greycol {
+  color: grey;
+}
+
+.text-box div p {
+  color: red;
+}
+
+.text-box > p:nth-of-type(3) {
+  color: green;
+}
+
+.text-box .yellow {
+  color: yellow;
+}
+.schedule ul {
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.schedule li {
+  padding: 5px 10px;
+  margin: 4px 0;
+  transition: 0.3s;
+}
+
+.mon li { background: #ffdddd; }
+.tue li { background: #ddffdd; }
+.wed li { background: #ddddff; }
+.thu li { background: #fffacc; }
+.fri li { background: #ffe0fa; }
+
+.schedule li:hover {
+  transform: scale(1.05);
+}
+
+.schedule li:active {
+  background: black;
+  color: white;
+}
+
+.schedule li:focus {
+  outline: 2px solid red;
+}
+
+.schedule li:first-child:hover {
+  border-left: 5px solid red;
+}
+
+.schedule li:last-child:active {
+  border-right: 5px solid blue;
+}
+
+.schedule li:first-child {
+  font-weight: bold;
+}
+
+.schedule li:last-child {
+  opacity: 0.8;
+}
+
+.schedule li:nth-child(2) {
+  font-style: italic;
+}
+
+.schedule li:nth-of-type(odd) {
+  border-radius: 4px;
+}
+
+.schedule li:not(:first-child) {
+  margin-left: 10px;
+}
